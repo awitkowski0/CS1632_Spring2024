@@ -26,12 +26,12 @@ knowledge.  Either you have to apply your knowledge to a piece of code, or you
 need to apply a testing tool to a specific problem.**
 
 ## TESTING THEORY AND TERMINOLOGY
-* Be able to explain why exhaustive testing is virtually impossible, even with just one method.
-* Be able to perform equivalence class partitioning given a set of requirements.
-* Be able to come up with boundary and interior values given a test scenario.
-* Be able to differentiate between base, edge, and corner cases.
-* Be able to explain the difference between static vs dynamic testing and give examples of each.
-* Be able to explain the difference between black box / white box / gray box testing and give examples of each.
+* Exhaustive Testing Impossibility: Even a single method can have an enormous number of input combinations, making it impractical to test every scenario. Consider the range of inputs, different states of the system, and interaction with other components, all of which exponentially increase complexity.
+* Equivalence Class Partitioning: This technique divides input data of a software unit into partitions of equivalent data from which test cases can be derived, aiming to reduce the total number of tests while covering all possible scenarios.
+* Boundary and Interior Values: Identifying these values helps in testing limits and central values of input domains, effectively catching common off-by-one errors and ensuring functionality across the input range.
+* Base, Edge, and Corner Cases: Base cases are typical conditions, edge cases are at the boundaries, and corner cases are where multiple boundaries intersect, each requiring specific attention during testing.
+* Static vs Dynamic Testing: Static testing involves reviewing code, documentation, and design without executing the program, while dynamic testing involves running the software to check for errors and examining its operational behavior.
+* Black Box / White Box / Gray Box Testing: Black box testing examines software functionality without peering into its internal structures or workings. White box testing requires detailed inside knowledge of the software's internals. Gray box testing is a blend, utilizing limited knowledge of the software's internal workings.
 * Be able to define all terminology introduced or fill in the blank.
 
 ## REQUIREMENTS ANALYSIS

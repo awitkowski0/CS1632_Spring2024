@@ -1,18 +1,17 @@
 - [Java Assessment Exercise](#java-assessment-exercise)
-  * [Description](#description)
-  * [Clone the GitHub Repository](#clone-the-github-repository)
-  * [Install Apache Maven](#install-apache-maven)
-  * [Install VSCode](#install-vscode)
-  * [Install JDK 11](#install-jdk-11)
-    + [Adding JDK 11 to PATH environment variable (Windows)](#adding-jdk-11-to-path-environment-variable-windows)
-    + [Adding JDK 11 to PATH environment variable (MacOS / Linux)](#adding-jdk-11-to-path-environment-variable-macos--linux)
-  * [Compile the Code](#compile-the-code)
-  * [Run the Code](#run-the-code)
-  * [Complete SortedCollection.java](#complete-sortedcollectionjava)
-  * [Test the Code](#test-the-code)
-  * [Submission](#submission)
-  * [GradeScope Feedback](#gradescope-feedback)
-  * [Resources](#resources)
+  - [Description](#description)
+  - [Clone the GitHub Repository](#clone-the-github-repository)
+  - [Install Apache Maven](#install-apache-maven)
+  - [Install VSCode](#install-vscode)
+  - [Install JDK 11](#install-jdk-11)
+    - [Adding JDK 11 to PATH environment variable (Windows)](#adding-jdk-11-to-path-environment-variable-windows)
+    - [Adding JDK 11 to PATH environment variable (MacOS / Linux)](#adding-jdk-11-to-path-environment-variable-macos--linux)
+  - [Compile the Code](#compile-the-code)
+  - [Run the Code](#run-the-code)
+  - [Complete SortedCollection.java](#complete-sortedcollectionjava)
+  - [Submission](#submission)
+  - [GradeScope Feedback](#gradescope-feedback)
+  - [Resources](#resources)
 
 # Java Assessment Exercise
 
@@ -278,7 +277,7 @@ marked by // TODO comments.  Feel free to use any data structure from java.util
 or one of your own.  It doesn't matter how you implement it as long as it works
 as specified.  Pay attention to the Javadoc comments on top of each method.
 
-## Test the Code
+cfttftrdfdss## Test the Code
 
 I have written a test class to test your SortedCollection implementation
 named SortedCollectionTest under the src/test folder.  You can use the
