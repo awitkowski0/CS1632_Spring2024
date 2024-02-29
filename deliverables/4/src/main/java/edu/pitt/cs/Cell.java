@@ -43,7 +43,7 @@ public class Cell extends JButton {
 		for (int j = 0; j < maxSize; j++) {
 			toReturn += currentState;
 		}
-		if (toReturn.substring(0, 1).equals("X")) {
+		if ("X".equals(toReturn.substring(0, 1))) {
 			return toReturn.substring(0, 1);
 		} else {
 			return ".";
@@ -78,9 +78,9 @@ public class Cell extends JButton {
 			Cell source = (Cell) e.getSource();
 			String currentText = source.getText();
 			resetBeenAlive();
-			if (currentText.equals(" ")) {
+			if (" ".equals(currentText)) {
 				setAlive(true);
-			} else if (currentText.equals("X")) {
+			} else if ("X".equals(currentText)) {
 				setAlive(false);
 			} else {
 				// This shouldn't happen
