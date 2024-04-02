@@ -6,6 +6,7 @@ package edu.pitt.cs;
  * DrunkCarnivalShooter: A carnival shooter with four targets, but while drunk!
  */
 
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -25,7 +26,7 @@ public class DrunkCarnivalShooterImpl implements DrunkCarnivalShooter {
 	 * 
 	 */
 	DrunkCarnivalShooterImpl() {
-		rand = new Random();
+		rand = new SecureRandom();
 		targets = new ArrayList<Boolean>();
 		targets = null;
 		remainingTargetNum = 4;

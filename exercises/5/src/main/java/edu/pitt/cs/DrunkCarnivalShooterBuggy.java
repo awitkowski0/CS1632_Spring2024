@@ -1,5 +1,6 @@
 package edu.pitt.cs;
 
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -24,7 +25,7 @@ public class DrunkCarnivalShooterBuggy implements DrunkCarnivalShooter {
 	 * 
 	 */
 	DrunkCarnivalShooterBuggy() {
-		rand = new Random();
+		rand = new SecureRandom();
 		targets = new ArrayList<Boolean>();
 		remainingTargetNum = 4;
 		for (int i = 0; i < remainingTargetNum; i++) {
