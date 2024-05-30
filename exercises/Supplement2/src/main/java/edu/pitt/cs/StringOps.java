@@ -43,13 +43,13 @@ public class StringOps {
 				}
 				if (s.startsWith("</b>", i)) {
 					String top = stack.pop();
-					if (!top.equals("<b>")) {
+					if (!"<b>".equals(top)) {
 						return false;
 					}
 				} else {
 					assert s.startsWith("</i>", i);
 					String top = stack.pop();
-					if (!top.equals("<i>")) {
+					if (!"<i>".equals(top)) {
 						return false;
 					}
 				}

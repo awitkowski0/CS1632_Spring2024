@@ -151,7 +151,7 @@ public class DrunkCarnivalShooterImpl implements DrunkCarnivalShooter {
 	public static void main(String[] args) {
 		DrunkCarnivalShooterImpl shooter = new DrunkCarnivalShooterImpl();
 		Scanner scanner = null;
-		if (args.length == 1 && args[0].equals("test")) {
+		if (args.length == 1 && "test".equals(args[0])) {
 			// Do not create an input scanner when running with JPF.
 		} else {
 			scanner = new Scanner(System.in);

@@ -256,16 +256,16 @@ public class BeanCounterLogicImpl implements BeanCounterLogic {
 			return;
 		}
 
-		if (args[2].equals("luck")) {
+		if ("luck".equals(args[2])) {
 			luck = true;
-		} else if (args[2].equals("skill")) {
+		} else if ("skill".equals(args[2])) {
 			luck = false;
 		} else {
 			showUsage();
 			return;
 		}
 		
-		if (args.length == 4 && args[3].equals("debug")) {
+		if (args.length == 4 && "debug".equals(args[3])) {
 			debug = true;
 		} else {
 			debug = false;

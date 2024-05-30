@@ -33,9 +33,9 @@ public class BeanCounterGUI {
 		}
 
 		boolean luck;
-		if (args[1].equals("luck")) {
+		if ("luck".equals(args[1])) {
 			luck = true;
-		} else if (args[1].equals("skill")) {
+		} else if ("skill".equals(args[1])) {
 			luck = false;
 		} else {
 			showUsage();
