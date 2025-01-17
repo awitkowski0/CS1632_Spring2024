@@ -1,5 +1,6 @@
 package edu.pitt.cs;
 
+import java.security.SecureRandom;
 import java.util.Formatter;
 import java.util.Random;
 
@@ -276,7 +277,7 @@ public class BeanCounterLogicImpl implements BeanCounterLogic {
 		// Create the beans (in luck mode)
 		BeanImpl[] beans = new BeanImpl[beanCount];
 		for (int i = 0; i < beanCount; i++) {
-			beans[i] = new BeanImpl(slotCount, luck, new Random());
+			beans[i] = new BeanImpl(slotCount, luck, new SecureRandom());
 		}
 		// Initialize the logic with the beans
 		logic.reset(beans);
