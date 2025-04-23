@@ -18,6 +18,7 @@ package edu.pitt.cs;
  * limitations under the License.
  */
 
+import java.security.SecureRandom;
 import java.util.Random;
 
 public class Rand {
@@ -29,7 +30,7 @@ public class Rand {
 	 */
 	public static void main(String[] args) {
 		System.out.println("computing c = a/(b+a - 2)..");
-		Random random = new Random(); // (1)
+		Random random = new SecureRandom(); // (1)
 
 		int a = random.nextInt(2); // (2)
 		System.out.printf("a=%d%n", a);
