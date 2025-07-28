@@ -5,6 +5,7 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.Graphics;
 import java.awt.Point;
+import java.security.SecureRandom;
 import java.text.DecimalFormat;
 import java.util.Arrays;
 import java.util.Random;
@@ -54,7 +55,7 @@ public class MainPanel extends JPanel {
 		// Create the beans
 		beans = new Bean[beanCount];
 		for (int i = 0; i < beanCount; i++) {
-			beans[i] = Bean.createInstance(type, SLOT_COUNT, isLuck, new Random());
+			beans[i] = Bean.createInstance(type, SLOT_COUNT, isLuck, new SecureRandom());
 		}
 		// Initialize the logic with the beans
 		logic.reset(beans);
